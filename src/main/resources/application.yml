@@ -1,1 +1,10 @@
-spring.application.name=todo-reactive
+spring:
+  application:
+    name: todo-reactive
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234
+
+server:
+  port: 8001
